@@ -20,6 +20,9 @@
     NSString *path = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
     NSString *fileName = @"archive.data";
     data.filePath = [path stringByAppendingString:fileName];
+    
+    NSLog(@"Change some stuff")
+    
     return data;
 }
 
